@@ -10,7 +10,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>hola mundo</h1>
+<h1>New Book</h1>
 	<form:form action="/addBookForm" method="post" modelAttribute="book">
 		<span>Title:</span>
 		<form:input path="title" type="text" name="title"/>

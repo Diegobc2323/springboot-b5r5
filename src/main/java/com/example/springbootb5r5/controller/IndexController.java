@@ -76,4 +76,14 @@ public class IndexController {
 		return m;
 	}
 	
+	@PostMapping("addBookForm")
+	public ModelAndView addBookForm(@ModelAttribute("book") Book book) {
+		bookService.add(book);
+		//l.info(owner.toString());  ESTO SACA POR LOG EL TOSTRING DEL DUEÑO
+		
+		ModelAndView m = new ModelAndView("index");
+		
+		return m;
+	}
+	
 }
