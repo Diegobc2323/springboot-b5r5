@@ -11,6 +11,8 @@ public class Book {
 	private String isbn;
 	
 	private int id_author;
+	
+	private String nom_author;
 
 	public int getId_book() {
 		return id_book;
@@ -43,11 +45,22 @@ public class Book {
 	public void setId_author(int id_author) {
 		this.id_author = id_author;
 	}
+	
+	public String getNom_author() {
+		return nom_author;
+	}
+	
+	public void setNom_author(String nom_author) {
+		this.nom_author = nom_author;
+	}
 
 	@Override
 	public String toString() {
-		return "Book [id_book=" + id_book + ", title=" + title + ", isbn=" + isbn + ", id_author=" + id_author + "]";
+		return "Book [id_book=" + id_book + ", title=" + title + ", isbn=" + isbn + ", id_author=" + id_author
+				+ ", nom_author=" + nom_author + "]";
 	}
+
+	
 	
 	
 }

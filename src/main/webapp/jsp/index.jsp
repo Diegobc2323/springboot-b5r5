@@ -10,10 +10,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<div style="justify-content: space-between;">
 	<a href="/goAuthorForm">Add an Author</a>
+	<br><br><br>
 	<a href="/goBookForm">Add a Book</a>
-	</div>
-	
+	<br><br><br>
+	<a href="/goAuthorList">Search an Author</a>
+	<br><br><br>
+	<a href="/goBookList">Search a Book</a>
 </body>
 </html>

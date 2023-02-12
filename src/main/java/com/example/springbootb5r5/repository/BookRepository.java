@@ -18,7 +18,6 @@ public class BookRepository {
 		book.setId_book(id);
 		
 		list.add(book);	
-		System.out.println(list);
 	}
 	
 	public int getLastIndex() {

@@ -20,6 +20,17 @@ public class AuthorRepository {
 		
 	}
 	
+	public Author getAuthorById(int id) {
+		Author aut = new Author();
+		
+		for (Author author : list) {
+			if (author.getId_auth()==id) {
+				aut = author;
+			}
+		}
+		
+		return aut;
+	}
 	
 	public int getLastIndex() {
 		int num = 0;
